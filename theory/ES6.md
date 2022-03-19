@@ -45,18 +45,18 @@ console.log(example) /// Test {text: "hi"}
 > ### Map, Set, WeakMap, WeakSet
 <br/>
 
-- Map
+- Map  
 순서를 기억하는 객체 형태
 key로 문자열 대신 다른 타입도 할당 가능
 
-- Set
+- Set  
 중복된 값이 없는 배열 형태
 
-- WeakMap
+- WeakMap   
 key로 객체만 받는 Map
 기존 객체를 약한 참조해서 메모리 누수를 방지함(?)  <= 이해 필요
 
-- WeakSet
+- WeakSet  
 객체만 값으로 받는 Set
 기존 객체를 약한 참조해서 메모리 누수를 방지함(?)  <= 이해 필요
 <br/>
